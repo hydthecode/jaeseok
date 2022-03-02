@@ -12,7 +12,7 @@
 
 
 
-![img_matlab](/img/img_matlab.png)
+![img_matlab](/img/img_matlab.jpg)
 
 ![img_matlab](/img/img_python.jpg)
 
