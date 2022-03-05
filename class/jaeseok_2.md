@@ -2,27 +2,6 @@
 
 
 
-## 수업계획 - Python 편
-
-1. 파이썬 시작
-2. 자료형 종류 1
-3. 자료형 종류 2
-4. 제어문, 반복문
-5. 입출력 제어 및 함수 만들기
-6. 클래스 / 모듈 / 패키지 / 라이브러리
-7. 프로그램 만들기 - BOJ 브론즈 정복하기 1
-8. BOJ 브론즈 정복하기 2
-9. BOJ 브론즈 정복하기 3, 실버 맛보기
-10. 정렬 방법 1
-11. 정렬 방법 2
-12. 자료 구조 - 스택 / 큐
-13. 자료 구조 - 연결리스트 / 트리
-14. 자료 구조 - 해시테이블 / 그래프
-15. 너비 우선 탐색, 깊이 우선 탐색
-16. TBA
-
-
-
 #### Homework Review
 
 - 1550
@@ -65,13 +44,63 @@ print(f[:10])
 print(f[:])
 print(f[::2])
 print(f[1::2])
+f[10] = m
+print(f)
 
-## 기타 유용할지도 모르는 함수
+## 유용한 함수들
 print(f.count('I'))
 print(a.find('I'))
 print(f.upper())
 print(f.lower())
 print(f.split())
+
+## formatting
+a, b = 10, 100
+print("I am %d years old." % a)
+print("%d X %d equals %d" % (a, a, b))
+
+print("I am {0} years old".format(a))
+print("{0} X {1} equals {2}".format(a, a, b))
+
+'''
+%s 문자열
+%d 정수
+%f 실수
+'''
+```
+
+
+
+#### 리스트 - List
+
+```python
+alpha = [a, b, c, d, e]
+print(alpha)
+print(alpha[0])
+
+'''
+문자열도 사실은 list와 유사한 변종 !
+indexing, formatting 방법 또한 같다.
+'''
+
+## 2차원 list
+beta = ['a', 'b', 'c', ['d', 'e']]
+print(beta)
+print(beta[3])
+print(beta[3][1])
+print(beta[2:])
+beta.append('f)'
+beta.append(['g', 'h'])
+beta.extend(['i', 'j', 'k'])
+del beta[0]
+beta.insert(0, 'a')
+
+## 유용한 함수들
+beta.reverse()
+beta.sort()
+beta.index('c')
+beta.pop()
+beta.remove('b')
 ```
 
 ### Practice Problem
@@ -83,3 +112,7 @@ print(f.split())
 #### Bronze II
 
 - boj.kr/1152
+- boj.kr/11365
+- boj.kr/11720
+- boj.kr/11721
+
