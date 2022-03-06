@@ -1,3 +1,16 @@
+#### Settings
+
+- Your main PC with microphone - Audio ON
+  - https://us04web.zoom.us/j/7362824872?pwd=bERWaXRCYnpQbm1aWURwSW9mblpldz09
+- Your 2nd Monitor - Audio OFF
+  - https://zoom.us/j/3454133163?pwd=NHpPQ1NsVEJLNkUxOVpMb1QzRjlkdz09
+
+#### Contact
+
+- [hydthemoon@gmail.com](mailto:hydthemoon@gmail.com)
+- 010-2339-3141
+- 국민은행 940302 00 532090 김재현
+
 ## Day 1
 
 #### Class
