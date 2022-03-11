@@ -11,47 +11,28 @@
 - 010-2339-3141
 - 국민은행 940302 00 532090 김재현
 
-## Day 1
+## Day 1 : Mar. 2
 
 #### Class
 
 - [link](https://hydthecode.github.io/jaeseok/class/jaeseok_1.html)
 
-#### Homework
-
-- 1550
-- 2355
-- 2420
-- 2530
 
 
-
-## Day 2
+## Day 2 : Mar. 6
 
 #### Class
 
 - [link](https://hydthecode.github.io/jaeseok/class/jaeseok_2.html)
 
-#### Homework
-
-- TBA
-
-## Day 3
+## Day 3 : Mar.11
 
 #### Class
 
 - [link](https://hydthecode.github.io/jaeseok/class/jaeseok_3.html)
 
-#### Homework
-
-- TBA
-
-## Day 4
+## Day 4 : 
 
 #### Class
 
 - [link](https://hydthecode.github.io/jaeseok/class/jaeseok_4.html)
-
-#### Homework
-
-- TBA
