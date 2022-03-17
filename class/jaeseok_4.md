@@ -2,108 +2,121 @@
 
 
 
-#### Homework Review
+
+
+#### What is Function ?
+
+- 수학에서 배운 함수와 같은 의미와 활용을 가진다.
+- y = f(x) 혹은 z = f(x, y) 와 같이 주어진 값들에 대해 반환 값을 주며,
+  수학에서와 마찬가지로 (z, w) = f(x, y) 와 같이 여러 값들을 반환할 수도 있다.
 
 
 
-> ##### this time we'll learn about
->
-> #### Loops
-
-##### 
-
-#### while 문 - while Statement
-
-- learn by example
+##### learn by example
 
 ```python
-age = int(input())
-while age > 0 :
-  print(age)
-  age = age - 1
+## def로 함수를 정의할 것을 선언하고
+## 함수명(get_sum)과 매개변수/parameter(arr), : 를 적어준다.
+## 함수 내부에 연산이 나열되고 어떤값을 반환할지 return 뒤에 표기한다(없어도 무방)
+
+def get_sum (arr) :
+  s = 0
+  for elt in arr :
+    s += elt
+  return s
+
+def get_average(arr) :
+	return get_sum(arr)/len(arr)
+
+def get_variance (arr) :
+  squared_arr = []
+  for elt in arr :
+    squared_arr.append(elt*elt)
+  return get_average(squared_arr)
+
+scores = [70,80,60,90]
+s_score = get_sum(scores)
+m_score = get_average(scores)
+v_score = get_variance(scores)
+print('sum: {0}, mean: {1}, var: {2}'.format(s_score, m_score, v_score))
 ```
 
-example above loops until age goes zero. And again,
+###### 
 
-> !! 파이썬은 **공백**이 생명 !!
->
-> !!  Manage **blanks** properly !!
-
-
-
-#### for 문 - for Statement 
+- functions with no return or parameter
 
 ```python
-for i in range (1, 10) :
-  print(i)
-```
-
-
-
-- Various usages of condition
-
-```python
-scores = [50, 90, 70, 80]
-for i in range (0, len(scores)) :
-  # len(scores) = 4
-  if scores[i] >= 80 :
-    print("{0} : pass".format(i))
-  else :
-    print("{0} : fail".format(i))
-```
-
-
-
-#### Some Pythonic Statement
-
-```python
-friends = ['jaeseok', 'hansol', 'jaehyun']
-
-for elt in friends :
-  print(elt)
+def print_add(a,b) :
+  print('{0} plus {1} is {2}'.format(a,b,a+b))
+  
+def print_myinfo() :
+  print("Name : Jaehyun Kim")
+  print("Date of Birth: April 9th 1998")
+  print("Gender: Male")
 ```
 
 
 
-#### How to Control Loops
-
-- lets pass or end some loop
+- return 2 or more elements
 
 ```python
-donotprint = [2,3,5,7]
-for i in range (10) :
-	if i in donotprint :
-    continue
-  print(i)
+def sum_and_pi (arr):
+  s = 0
+  p = 1
+  for elt in arr :
+    s += elt
+    p *= elt
+  return s, p
+
+a, b = sum_and_pi(scores)
 ```
+
+- usage of **return**
 
 ```python
-stop = 8
-for i in range (10) :
-  if i == stop :
-    break
-  print(i)
+	def response(score) :
+    if score < 0 :
+      return
+    print("Your score is {0}".format(score))
 ```
 
-- you may have to use **continue/break** properly to make better code
 
 
+- Variable in Function
+
+```python
+a = 1
+def somefunction (a) :
+  a+=1
+  print(a)
+
+somfunction(a)
+print(a)
+```
+
+
+
+- GLOBAL
+
+```python
+a = 1
+def somefunction (a) :
+  global a
+  a+=1
+  print(a)
+
+somfunction(a)
+print(a)
+```
 
 
 
 ### Practice Problem
 
-#### Bronze III
+#### Silver 5
 
-- boj.kr/2739
-- boj.kr/1009
-- boj.kr/1964
+- boj.kr/4673
 
-#### Bronze II
+#### Silver 4
 
-- boj.kr/1672
-
-#### Bronze I
-
-- boj.kr/1977
-
+- boj.kr/1065
