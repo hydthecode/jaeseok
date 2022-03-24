@@ -1,8 +1,8 @@
 #### Settings
 
-- Your main PC with microphone - Audio ON
-  - https://us04web.zoom.us/j/7362824872?pwd=bERWaXRCYnpQbm1aWURwSW9mblpldz09
-- Your 2nd Monitor - Audio OFF
+- Your main PC with microphone - Audio OFF
+  - https://zoom.us/j/5020338473?pwd=U2dWY1o3U0crWDYzazJxeHNWTFZ1Zz09
+- Your 2nd Monitor - Audio ON
   - https://zoom.us/j/3454133163?pwd=NHpPQ1NsVEJLNkUxOVpMb1QzRjlkdz09
 
 #### Contact
@@ -31,8 +31,9 @@
 
 - [link](https://hydthecode.github.io/jaeseok/class/jaeseok_3.html)
 
-## Day 4 : 
+## Day 4 : Mar. 20
 
 #### Class
 
-- [link](https://hydthecode.github.io/jaeseok/class/jaeseok_4.html)
+- MATLab HW1
+
