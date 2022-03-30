@@ -43,4 +43,8 @@
 
 - [link](https://hydthecode.github.io/jaeseok/class/jaeseok_4.html)
 
-## 
+## Day 6 : Mar. 30
+
+#### Class
+
+- [link](https://hydthecode.github.io/jaeseok/class/jaeseok_5.html)
