@@ -48,3 +48,17 @@
 #### Class
 
 - [link](https://hydthecode.github.io/jaeseok/class/jaeseok_5.html)
+
+
+
+## Day 7 : Apr. 3
+
+#### Class
+
+- MatLAB
+
+## Day 8 : 
+
+#### Class
+
+- TBD
