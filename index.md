@@ -51,14 +51,26 @@
 
 
 
-## Day 7 : Apr. 3
+## Day 7 : Apr. 4
 
 #### Class
 
 - MatLAB
 
-## Day 8 : 
+## Day 8 : Apr. 7
 
 #### Class
 
-- TBD
+- MatLab
+
+## Day 9 : Apr. 29 
+
+#### Class
+
+- MatLab
+
+## Day 10 : May. 19
+
+#### Class
+
+- MatLab
